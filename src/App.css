@@ -1,0 +1,67 @@
+#root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main-container {
+  border-bottom: 0.8px solid rgb(41, 41, 41);
+  border-left: 0.8px solid rgb(41, 41, 41);
+  border-right: 0.8px solid rgb(41, 41, 41);
+  position: relative;
+  margin: 1rem;
+  padding: 2rem;
+  min-width: 400px;
+}
+
+label {
+  font-size: 12px;
+  color: rgb(91, 91, 91);
+}
+.field-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  margin-bottom: 16px;
+}
+
+input {
+  height: 30px;
+  border: 0.5px solid rgb(41, 41, 41);
+  border-radius: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+button {
+  all: unset;
+  font-size: 14px;
+  background-color: #4681f4;
+  font-weight: 400;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 0.5px solid #4681f4;
+  width: 40px;
+  text-align: center;
+}
+
+.backBtn {
+  background-color: white;
+  color: #4681f4;
+  border: 0.5px solid #4681f4;
+}
+
+.progress-container {
+  width: 100%;
+  height: 10px;
+  background-color: rgb(170, 170, 170);
+}
